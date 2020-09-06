@@ -51,5 +51,11 @@ get_ipython().system_raw("mlflow ui --port 5000 &")
 public_url = ngrok.connect(port="5000", proto="http", options={"bind_tls": True})
 ```
 
+1. model overview in mlflow UI
+<img src='misc/model_overview.png'/>
+
+2. confusion matrix in mlflow UI
+<img src='misc/confusion_matrix.png'/>
+
 
 
